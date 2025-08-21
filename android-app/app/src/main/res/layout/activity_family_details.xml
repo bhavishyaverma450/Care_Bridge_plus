@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/family_details"
+            android:textColor="#212121"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/addressEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="@string/address_hint"
+            android:inputType="textMultiLine"
+            android:autofillHints="address"
+            android:importantForAutofill="yes"
+            android:background="@drawable/edit_text_background"
+            android:textColor="#000000"
+            android:textColorHint="#333333"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            tools:ignore="TextFields,MissingContentDescription,TooWide,Overdraw" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/emergency_contact1_title"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/emergencyContact1NameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="@string/emergency_contact1_name_hint"
+            android:inputType="textPersonName"
+            android:autofillHints="name"
+            android:importantForAutofill="yes"
+            android:background="@drawable/edit_text_background"
+            android:textColor="#000000"
+            android:textColorHint="#333333"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            tools:ignore="TextFields,MissingContentDescription,TooWide,Overdraw" />
+
+        <EditText
+            android:id="@+id/emergencyContact1PhoneEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="@string/emergency_contact1_phone_hint"
+            android:inputType="phone"
+            android:autofillHints="phone"
+            android:importantForAutofill="yes"
+            android:background="@drawable/edit_text_background"
+            android:textColor="#000000"
+            android:textColorHint="#333333"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            tools:ignore="TextFields,MissingContentDescription,TooWide,Overdraw" />
+
+        <EditText
+            android:id="@+id/emergencyContact1RelationEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="@string/emergency_contact1_relation_hint"
+            android:inputType="text"
+            android:autofillHints="relationship"
+            android:importantForAutofill="yes"
+            android:background="@drawable/edit_text_background"
+            android:textColor="#000000"
+            android:textColorHint="#333333"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            tools:ignore="TextFields,MissingContentDescription,TooWide,Overdraw" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/emergency_contact2_title"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/emergencyContact2NameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="@string/emergency_contact2_name_hint"
+            android:inputType="textPersonName"
+            android:autofillHints="name"
+            android:importantForAutofill="yes"
+            android:background="@drawable/edit_text_background"
+            android:textColor="#000000"
+            android:textColorHint="#333333"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            tools:ignore="TextFields,MissingContentDescription,TooWide,Overdraw" />
+
+        <EditText
+            android:id="@+id/emergencyContact2PhoneEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="@string/emergency_contact2_phone_hint"
+            android:inputType="phone"
+            android:autofillHints="phone"
+            android:importantForAutofill="yes"
+            android:background="@drawable/edit_text_background"
+            android:textColor="#000000"
+            android:textColorHint="#333333"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            tools:ignore="TextFields,MissingContentDescription,TooWide,Overdraw" />
+
+        <EditText
+            android:id="@+id/emergencyContact2RelationEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="@string/emergency_contact2_relation_hint"
+            android:inputType="text"
+            android:autofillHints="relationship"
+            android:importantForAutofill="yes"
+            android:background="@drawable/edit_text_background"
+            android:textColor="#000000"
+            android:textColorHint="#333333"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            tools:ignore="TextFields,MissingContentDescription,TooWide,Overdraw" />
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="@string/save"
+            android:backgroundTint="#007AFF"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:contentDescription="@string/save_description"
+            android:shadowColor="#000000"
+            android:shadowRadius="1"
+            android:shadowDy="1"
+            tools:ignore="TextContrast,LowContrastText,LabelFor,ButtonWithState,TooWide,Overdraw" />
+
+        <Button
+            android:id="@+id/nextButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="@string/next"
+            android:backgroundTint="#34C759"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="@string/next_description"
+            android:shadowColor="#000000"
+            android:shadowRadius="1"
+            android:shadowDy="1"
+            tools:ignore="TextContrast,LowContrastText,TooWide,Overdraw" />
+    </LinearLayout>
+</ScrollView>

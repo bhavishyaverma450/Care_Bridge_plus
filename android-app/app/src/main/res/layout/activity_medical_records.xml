@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/medical_records"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/medicine_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/medicine_name_hint"
+        android:background="@drawable/edittext_bakground"
+        android:textColor="#000000"
+        android:textColorHint="#333333"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/reminder_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/reminder_time_hint"
+        android:inputType="none"
+        android:focusable="false"
+        android:background="@drawable/edittext_bakground"
+        android:textColor="#000000"
+        android:textColorHint="#333333"
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/add_medicine_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_medicine"
+        android:contentDescription="@string/add_medicine_description"
+        android:backgroundTint="#007AFF"
+        android:textColor="#FFFFFF" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/medicines_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/medicines_list_description" />
+
+    <EditText
+        android:id="@+id/disease_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/disease_details_hint"
+        android:background="@drawable/edittext_bakground"
+        android:textColor="#000000"
+        android:textColorHint="#333333"
+        android:padding="12dp" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/share_with_caretaker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:minWidth="48dp"
+        android:text="@string/share_with_caretaker"
+        android:contentDescription="@string/share_with_caretaker_toggle"
+        android:textColor="#000000"
+        app:trackTint="#999999"
+        app:thumbTint="#007AFF" />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:contentDescription="@string/save_description"
+        android:backgroundTint="#007AFF"
+        android:textColor="#FFFFFF" />
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+
+<TextView android:id="@+id/tvAlertMessage"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Alert message here"
+    android:textColor="#000"
+    android:textSize="16sp" />
+
+<TextView
+android:id="@+id/tvAlertTime"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="10:30 AM"
+android:textColor="#666"
+android:textSize="12sp" />
+</LinearLayout>
